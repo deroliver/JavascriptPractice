@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/deroliver/JavascriptPractice/issues"
   },
-  "homepage": "https://github.com/deroliver/JavascriptPractice#readme"
+  "homepage": "https://github.com/deroliver/JavascriptPractice#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-eslint": "^7.1.1",
+    "babel-preset-es2015-node": "^6.1.1",
+    "babel-preset-stage-0": "^6.16.0"
+  }
 }

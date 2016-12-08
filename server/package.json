@@ -12,5 +12,13 @@
     "experts"
   ],
   "author": "Derik Oliver",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https:https://github.com/deroliver/JavascriptPractice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deroliver/JavascriptPractice/issues"
+  },
+  "homepage": "https://github.com/deroliver/JavascriptPractice#readme"
 }

@@ -4,7 +4,7 @@ import bodyParser from 'body-parser';
 import morgan from 'morgan';
 
 // our packages
-import logger from './util';
+import {logger} from './util';
 
 // init app
 const app = express();
@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({extended: true})); // for parsing application/x-w
 
 // test method
 app.get('/', (req, res) => {
-  res.send('Hello World');
+  res.send('Hello world!');
 });
 
 // catch all unhandler errors

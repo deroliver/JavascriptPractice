@@ -1,6 +1,6 @@
 import winston from 'winston';
 
-const logger = new winston.Logger({
+export const logger = new winston.Logger({
   transports: [
     new winston.transports.Console({
       level: process.env.NODE_ENV === 'production' ? 'info' : 'debug',
@@ -17,4 +17,4 @@ logger.stream = {
   write: message => logger.info(message),
 };
 
-export default logger;
+//export default logger;
